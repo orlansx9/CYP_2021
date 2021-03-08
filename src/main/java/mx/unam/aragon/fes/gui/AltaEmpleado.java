@@ -361,6 +361,7 @@ public class AltaEmpleado extends javax.swing.JFrame {
         emp.getDomicilio().setColonia(this.jTextField8.getText());
         emp.getDomicilio().setDelegacion(this.jTextField9.getText());
         emp.getDomicilio().setEstado(this.jTextField10.getText());
+        emp.getDomicilio().setCp(this.jTextField11.getText());
         emp.setNumeroEmpleado(Integer.parseInt(this.jTextField12.getText()));
         emp.setDepartamento(this.jTextField13.getText());
         emp.setSueldo(Float.parseFloat(this.jTextField14.getText()));
